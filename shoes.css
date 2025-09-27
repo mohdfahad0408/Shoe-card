@@ -32,11 +32,15 @@ picture{
 }
 
 
-body{
+.page{
     border: 2px solid gray;
     width: 700px;
-    height: 450px;
-    position: absolute;
-    top: 20%;
-    left: 25%;
+    height: 500px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
